@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Datasets
+# Ignore dataset files to avoid large files in the repository
+# User should download datasets separately from README instructions
+*.csv
+*.parquet
+*.pkl
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
